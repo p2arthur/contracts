@@ -1,3 +1,27 @@
+# question.market Contract Reference
+
+Fork of question.market’s Algorand prediction-market contracts, with LMSR pricing and active-liquidity-provider experiments.
+
+The Python contract source and accompanying models, scripts, and tests are retained from the underlying project. Review the upstream documentation and this fork’s changes before interpreting deployment or security claims.
+
+## Provenance
+
+This repository is a fork of [qmrkt/contracts](https://github.com/qmrkt/contracts). Upstream authorship and license terms apply to the retained source. The fork may differ from the upstream default branch; inspect its commit history when reviewing a specific implementation.
+
+## Explore the repository
+
+- [`scripts/`](scripts/)
+- [`smart_contracts/`](smart_contracts/)
+- [`tests/`](tests/)
+- [`.github/`](.github/)
+
+## Project documentation
+
+The existing guide below preserves the project-specific setup, examples, and credits. Its commands describe the checked-in project; no deployment or transaction is performed by reading this repository.
+
+<details>
+<summary>Read the project guide</summary>
+
 # question.market contracts
 
 Open-source Algorand smart contracts powering [question.market](https://question.market) -- a prediction market protocol using Logarithmic Market Scoring Rule (LMSR) pricing.
@@ -75,3 +99,9 @@ The protocol uses a Logarithmic Market Scoring Rule for automated market making.
 ## License
 
 See [LICENSE](./LICENSE).
+
+</details>
+
+## License
+
+See [LICENSE](LICENSE) for license terms and attribution.
